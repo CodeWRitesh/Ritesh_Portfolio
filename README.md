@@ -2,8 +2,7 @@
 <h1>Introduction:</h1>
 <h3>This is a responsive portfolio website created using HTML, CSS, and JavaScript. It's designed to showcase my projects, skills, and experience in a visually appealing and user-friendly manner.</h3>
 <h1>Features:</h1>
-
-<h3>Responsive Design:
+<h3><b>Responsive Design:</b>
   Ensures optimal viewing experience across various devices and screen sizes.</h3>
 <h2>Portfolio Showcase:</h2>
 <h3>Displays my projects with images, descriptions, and links to project pages for more details.</h3>
