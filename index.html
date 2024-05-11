@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">PORTFO<span>LIO</span></div>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="text">
+            <p>Hello, I am </p>
+            <h1>Ritesh Pedhekar</h1>
+            <p>And I am a <span style="color:plum; " id="ani"></span></p>
+            <button class="c-btn">Hire Me</button>
+        </div>
+    </header>
+    <section id="about">
+        <div class="section-info">
+            <h1> About</h1>
+            <p>Who I Am ?</p>
+        </div>
+
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="./images/Riteshmain.png">
+            </div>
+            <div class="about-right-col">
+                <p id="p-title">Hello, I am Ritesh & I am <span style="color:plum; " id="ani2"></span></p>
+                <p>Results-oriented and innovative front-end developer, specializing in bringing designers'
+                    concepts to life through expert utilization of HTML, CSS, JavaScript, and other relevant front-end technologies. Proven
+                    expertise in mainstream frameworks such as React, with a focus on creating and
+                    maintaining visually stunning and highly functional websites and web application
+                    interfaces. Adept at troubleshooting issues, optimizing performance, and ensuring
+                    brand consistency throughout projects.
+                </p>
+                <button class="c-btn"><a href="./images/Ritesh_Resume.pdf" Download>Download
+                        CV</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color:white;"> Skills</h1>
+            <p>Who I Am ?</p>
+        </div>
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p>Results-oriented and innovative front-end developer,
+                    specializing in bringing designers' concepts to life through expert utilization of
+                    HTML, CSS, JavaScript and other relevant front-end technologies. Proven
+                    expertise in mainstream frameworks such as React, with a focus on creating and
+                    maintaining visually stunning and highly functional websites and web application
+                    interfaces. Adept at troubleshooting issues, optimizing performance, and ensuring
+                    brand consistency throughout projects.
+                </p>
+                <button class="c-btn">Download CV</button>
+            </div>
+            <div class="skills-right-col">
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span><br>
+                        <progress value="90" max="100"></progress> <span>90%</span> <br>
+                    </p>
+                    <p>
+                        <span>CSS</span><br>
+                        <progress value="80" max="100"></progress> <span>80%</span> <br>
+                    </p>
+                    <p>
+                        <span>JAVASCRIPT</span><br>
+                        <progress value="70" max="100"></progress> <span>70%</span> <br>
+                    </p>
+                    <p>
+                        <span>BOOTSTRAP</span><br>
+                        <progress value="50" max="100"></progress> <span>50%</span> <br>
+                    </p>
+                    <p>
+                        <span>REACT JS</span><br>
+                        <progress value="60" max="100"></progress> <span>60%</span> <br>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="section-info">
+            <h1> Services</h1>
+            <p>What We Provide</p>
+        </div>
+        <div class="services-row">
+            <div class="services-box" data-tilt>
+                <img src="./images/b2.png" alt="">
+                <h2>Web Development</h2>
+                <p>Passionate web developer with a focus on creating dynamic and user-friendly websites and web applications.</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="./images/b2.png" alt="">
+                <h2>UI Development</h2>
+                <p>Dedicated UI developer with a keen eye for design and a passion for crafting seamless user experiences..</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="./images/b2.png" alt="">
+                <h2>React JS Application Design</h2>
+                <p>React.js application developer with a focus on building engaging and user-friendly web applications. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="section-info" style="color: white;">
+            <h1>Get in Touch</h1>
+            <p style="color: plum;">We Are Available</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="./images/b3.png" alt="">
+            </div>
+            <div class="contact-right-col">
+                <form action="">
+                    <h2 style="color: white;">Connect With Us</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email"> <br>
+                    <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea> <br>
+                    <button class="c-btn"> Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Developed by Ritesh Pedhekar</h2>
+        <div class="home-sci">
+            <a href="www.linkedin.com/in/ritesh-pedhekar-581983285"><i id="icon1" class='bx bxl-linkedin'></i>
+                </a>
+            <a href="#"> <i id="icon2" class='bx bxl-github'></i></a>
+            <a href="#"><i id="icon3" class='bx bxl-instagram'></i></a>
+            <a href="#"><i id="icon4" class='bx bxl-whatsapp'></i></a>
+        </div>
+        <!-- <img src="./images/icon.png" width="100"> -->
+    </section>
+    <script src="./js/jquery.ripples-min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $('#water').ripples({
+                dropRadius: 20,
+                perturbance: 0.03,
+            });
+        });
+    </script>
+    <script>
+        let animate = new Typed('#ani', {
+            strings: ["Front-End Develper", "React-JS Developer", "UI Develoeper"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <script>
+        let animate2 = new Typed('#ani2', {
+            strings: ["Front-End Develper", "React-JS Developer", "UI Develoeper"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <script src="./js/tilt.jquery.min.js"></script>
+</body>
+
+</html>
