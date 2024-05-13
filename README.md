@@ -11,7 +11,7 @@
   </ul>
 <h2>Technologies Used:</h2>
 <ul>
-  <li>HTML:<br> Provides the structure and content of the website.</li>
-  <li>CSS: <br> Styles the website to make it visually appealing and responsive.</li>
-  <li>JavaScript: <br> Adds interactivity and dynamic functionality to the website.</li>
+  <li>HTML: Provides the structure and content of the website.</li>
+  <li>CSS: Styles the website to make it visually appealing and responsive.</li>
+  <li>JavaScript: Adds interactivity and dynamic functionality to the website.</li>
 </ul>
